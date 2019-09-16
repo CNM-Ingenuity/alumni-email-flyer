@@ -45,6 +45,10 @@ a {
   color: inherit;
 }
 
+hr {
+  color: #ffffff;
+}
+
 .date {
   font-size: 2em;
   font-weight: normal;
