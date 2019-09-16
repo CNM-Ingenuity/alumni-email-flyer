@@ -46,7 +46,11 @@ a {
 }
 
 hr {
-  color: #ffffff;
+  color: #ffffff !important;
+  size: 3px;
+  margin: 50px 0;
+  border-style: outset;
+  border-color: #ffd007;
 }
 
 .date {
@@ -56,8 +60,13 @@ hr {
 }
 .intro {
   margin: 10px 20px;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: lighter;
+}
+
+.how_li {
+  padding-bottom: 20px;
+  list-style-type: none;
 }
 .rsvp {
   margin: 50px;
